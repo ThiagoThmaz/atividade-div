@@ -37,4 +37,5 @@
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,git
 
-.DS_Store
+.DS_Store 
+/*.DS_Store
