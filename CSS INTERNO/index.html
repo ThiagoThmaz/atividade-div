@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS interno</title>
+</head>
+
+<style>
+
+#int_mae{
+    background-color: #FFD700;
+    width: 500px;
+    height: 500px;
+}
+
+#int_filho{
+    background-color: #00FF00;
+    width: 50%; 
+    height: 50%;
+}
+
+.int_p{
+    color: white; 
+    background-color: #FF0000; 
+    font-size: 25px; 
+    font-family: monospace; 
+    font-weight: bold;
+}
+
+#int_pai{
+    background-color: rgb(173, 216, 230); 
+    width: 50%; 
+    height: 50px;
+}
+
+#int_filha{
+    background-color: rgb(255, 0, 0); 
+    width: 75px; 
+    height: 50%;
+}
+
+</style>
+
+<body>
+    <div id="int_mae">
+        <div id="int_filho">
+            <p class="int_p">parágrafo</p>
+        </div>
+    </div>
+
+    <div id="int_pai">
+        <div id="int_filha">   
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+#int_mae{
+    background-color: #FFD700;
+    width: 500px;
+    height: 500px;
+}
+
+#int_filho{
+    background-color: #00FF00;
+    width: 50%; 
+    height: 50%;
+}
+
+.int_p{
+    color: white; 
+    background-color: #FF0000; 
+    font-size: 25px; 
+    font-family: monospace; 
+    font-weight: bold;
+}
+
+#int_pai{
+    background-color: rgb(173, 216, 230); 
+    width: 50%; 
+    height: 50px;
+}
+
+#int_filha{
+    background-color: rgb(255, 0, 0); 
+    width: 75px; 
+    height: 50%;
+}
